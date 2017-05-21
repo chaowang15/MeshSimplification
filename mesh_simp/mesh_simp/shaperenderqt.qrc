@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="ShapeRenderQt">
+    <file>ref/points.png</file>
+    <file>ref/backlines.png</file>
+    <file>ref/bbox.png</file>
+    <file>ref/circle.png</file>
+    <file>ref/exit.png</file>
+    <file>ref/flat.png</file>
+    <file>ref/flatlines.png</file>
+    <file>ref/new.png</file>
+    <file>ref/open.png</file>
+    <file>ref/open_model.png</file>
+    <file>ref/pdf.png</file>
+    <file>ref/reload.png</file>
+    <file>ref/save.png</file>
+    <file>ref/smooth.png</file>
+    <file>ref/snap.png</file>
+    <file>ref/square.png</file>
+    <file>ref/textures.png</file>
+    <file>ref/wire.png</file>
+  </qresource>
+</RCC>
