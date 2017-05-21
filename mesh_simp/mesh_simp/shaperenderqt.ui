@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>ModelRepairQt</string>
+   <string>Mesh Simplification</string>
   </property>
   <property name="windowIcon">
    <iconset resource="shaperenderqt.qrc">

@@ -410,7 +410,7 @@ public:
 
     void retranslateUi(QMainWindow *ShapeRenderQtClass)
     {
-        ShapeRenderQtClass->setWindowTitle(QApplication::translate("ShapeRenderQtClass", "ModelRepairQt", 0));
+        ShapeRenderQtClass->setWindowTitle(QApplication::translate("ShapeRenderQtClass", "Mesh Simplification", 0));
         action_Open->setText(QApplication::translate("ShapeRenderQtClass", "&Open", 0));
         action_Open->setShortcut(QApplication::translate("ShapeRenderQtClass", "Ctrl+O", 0));
         action_Exit->setText(QApplication::translate("ShapeRenderQtClass", "&Exit", 0));

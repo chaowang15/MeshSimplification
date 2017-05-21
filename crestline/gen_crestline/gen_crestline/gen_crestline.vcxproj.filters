@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Eigens.cpp" />
+    <ClCompile Include="IDSet.cpp" />
+    <ClCompile Include="PointTool.cpp" />
+    <ClCompile Include="Polyhedron.cpp" />
+    <ClCompile Include="setCurvature.cpp" />
+    <ClCompile Include="SvdSolve.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="Eigens.h" />
+    <ClInclude Include="IDList.h" />
+    <ClInclude Include="IDSet.h" />
+    <ClInclude Include="NRmacro.h" />
+    <ClInclude Include="Point3d.h" />
+    <ClInclude Include="PointTool.h" />
+    <ClInclude Include="PolarList.h" />
+    <ClInclude Include="Polyhedron.h" />
+    <ClInclude Include="SvdSolve.h" />
+  </ItemGroup>
+</Project>

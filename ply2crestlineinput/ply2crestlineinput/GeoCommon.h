@@ -1,0 +1,47 @@
+#ifndef GEOCOMMON_H
+#define GEOCOMMON_H
+
+#define UCHAR unsigned char
+#define USHORT unsigned short
+
+#define USE_MINIMIZER
+
+/**
+ * Structure definitions for points and triangles.
+ *
+ * @author Tao Ju
+ */
+
+
+// 3d point with integer coordinates
+typedef struct
+{
+	int x, y, z;
+} Point3i;
+
+typedef struct
+{
+	Point3i begin;
+	Point3i end;
+} BoundingBox;
+
+// triangle that points to three vertices
+typedef struct 
+{
+	float vt[3][3] ;
+} Triangle;
+
+// 3d point with float coordinates
+typedef struct
+{
+	float x, y, z;
+} Point3f;
+
+typedef struct
+{
+	Point3f begin;
+	Point3f end;
+} BoundingBoxf;
+
+
+#endif
